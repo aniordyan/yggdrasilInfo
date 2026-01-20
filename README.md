@@ -1,3 +1,19 @@
+======PROBLEM======
+Two computers with private IPs (like 192.168.1.5 and 10.0.0.8) behind different routers cannot connect directly.
+
+Why it fails:
+
+    -Private IPs only work inside your local network
+
+    -NAT/firewalls block incoming connections
+
+    -You need complex port forwarding or VPN setup
+
+Yggdrasil solution
+Yggdrasil gives both computers public IPv6 addresses that work anywhere, creating a direct tunnel through the internet.
+
+=======STEPS======
+
 add connection peers
 `vim /etc/yggdrasil/yggdrasil.conf`
 
