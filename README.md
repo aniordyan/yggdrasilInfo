@@ -1,4 +1,5 @@
 ======PROBLEM======
+
 Two computers with private IPs (like 192.168.1.5 and 10.0.0.8) behind different routers cannot connect directly.
 
 Why it fails:
