@@ -15,6 +15,13 @@ Yggdrasil gives both computers public IPv6 addresses that work anywhere, creatin
 
 =======STEPS======
 
+sudo apt install yggdrasil
+
+#sudo -i to run commands from root and not type sudo everytime
+
+generate configuration file that will create unique network identity `yggdrasil -genconf > /etc/yggdrasil/yggdrasil.conf`
+
+
 add connection peers
 `vim /etc/yggdrasil/yggdrasil.conf`
 
