@@ -37,6 +37,8 @@ do
 
 now it should work :)
 
+to ensure Yggdrasil runs automatically every time the system starts, so manual execution is no longer required run `systemctl enable yggdrasil `
+
 to create connection
 `nc -6 -l -p [port number]`
 
